@@ -1,0 +1,48 @@
+*{
+  border: 1px red dashed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+  min-height: 100%
+}
+body{
+  min-height: 100%
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  background: linear-gradient(90deg, #003f5b, #224f76, #415f91, #636eaa, #877cc1, #ae89d4, #d695e3, #ffa2ee); /* made at https://learnui.design/tools/gradient-generator.html */
+  
+}
+.mainContainer{
+  
+}
+.headshot{
+  width: 128px;
+  /* height: 128px; */
+  /* object-fit: cover; */
+  border-radius: 50%;
+}
+.thumbnail{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit:cover;
+  padding-inline: 10px;
+}
+.nameRow{
+  font-size: 40px;
+}
+.item{
+  width: 100%;
+  padding: 10px;
+  display:flex;
+  flex-direction: row; 
+  
+}
+.linksRow{
+  width: 100%;
+}
