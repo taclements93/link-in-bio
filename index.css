@@ -1,16 +1,14 @@
 *{
-  border: 1px red dashed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: aliceblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 223, 233);
+  text-decoration: none;
+  /* border: 1px solid red; */
 }
 html{
-  min-height: 100%
+  min-height: 100%;
 }
 body{
-  min-height: 100%
+  min-height: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
@@ -18,7 +16,8 @@ body{
   
 }
 .mainContainer{
-  
+  max-width: 640px;
+  margin: auto;
 }
 .headshot{
   width: 128px;
@@ -31,18 +30,42 @@ body{
   height: 48px;
   border-radius: 50%;
   object-fit:cover;
-  padding-inline: 10px;
+}
+.imageRow{
+  margin-bottom: 20px;
+  text-align: center;
 }
 .nameRow{
-  font-size: 40px;
+  font-size: 25px;
+  font-weight: 200;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.socialIconsRow{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .item{
-  width: 100%;
   padding: 10px;
   display:flex;
-  flex-direction: row; 
-  
+align-items: center;  
+padding-right: 43px;
+box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+background-color: rgba(149, 123, 173, 2.5);
+border-radius: 20px;
 }
 .linksRow{
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  flex-grow: 1;
+  background-color: #79aec5;
+  border-radius: 20px;
+  
+}
+.linksDiv{
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
