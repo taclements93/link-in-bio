@@ -29,7 +29,7 @@ body{
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  object-fit:cover;
+  object-fit:inherit;
 }
 .imageRow{
   margin-bottom: 20px;
@@ -48,24 +48,31 @@ body{
 }
 .item{
   padding: 10px;
-  display:flex;
-align-items: center;  
-padding-right: 43px;
-box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
-background-color: rgba(149, 123, 173, 2.5);
-border-radius: 20px;
+  padding-right: 43px;
+  box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+  background-color: rgba(149, 123, 173, 2.5);
+  border-radius: 20px;
+  
+
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
+
 .linksRow{
   width: 100%;
   margin-bottom: 20px;
   text-align: center;
   flex-grow: 1;
-  background-color: #79aec5;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+
   border-radius: 20px;
   
 }
-.linksDiv{
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.link-text {
+  text-align: center;
+  flex-grow: 1;
 }
